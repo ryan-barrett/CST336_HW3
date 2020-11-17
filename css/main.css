@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+main {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+img {
+    margin-top: -2rem;
+}
+
+#weather-description {
+    margin: 1rem;
+}
+
+#misc {
+    margin: .5rem;
+}
+
+.misc {
+    margin: .5rem;
+}
+
+#city-input {
+    margin: 1rem;
+}
+
+.input-error {
+    border: 1px solid red;
+}
+
+#validation {
+    color: red;
+}
