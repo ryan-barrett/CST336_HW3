@@ -28,9 +28,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
     </key>
@@ -44,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605630186691</updated>
       <workItem from="1605630188901" duration="16000" />
-      <workItem from="1605630220488" duration="6789000" />
+      <workItem from="1605630220488" duration="7200000" />
     </task>
     <servers />
   </component>

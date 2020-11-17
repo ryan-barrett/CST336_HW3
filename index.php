@@ -28,6 +28,11 @@
         <div hidden id="validation">Invalid city name</div>
     </div>
 </main>
+<footer>
+    <img id="csumb-img" src="./img/csumb.png" alt="Picture of CSUMB icon"/>
+    <div>CST336 Internet Programming. 2020&copy; Ryan Barrett</div>
+    <br/>
+</footer>
 <script src="js/main.js"></script>
 </body>
 </html>
