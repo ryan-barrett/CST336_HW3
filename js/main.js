@@ -23,6 +23,20 @@ function getCityInput() {
   return document.getElementById('city-input');
 }
 
+function getInstructions() {
+  return document.getElementById('instructions');
+}
+
+function displayInstructions() {
+  const instructionsDiv = getInstructions();
+  instructionsDiv.removeAttribute('hidden');
+}
+
+function hideInstructions() {
+  const instructionsDiv = getInstructions();
+  instructionsDiv.setAttribute('hidden', true);
+}
+
 function displayErrorMessage() {
   const validationDiv = getValidationDiv();
   const cityInput = getCityInput();
@@ -73,6 +87,7 @@ async function handleCityInputSubmit(event) {
   try {
     weatherData = await fetchByCity(city);
     hideErrorMessage();
+    hideInstructions();
     renderWeatherData(weatherData);
   }
   catch (error) {
