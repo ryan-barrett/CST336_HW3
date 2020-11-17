@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>U.S. Weather Tracker</title>
+    <title>Weather Tracker</title>
     <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 <body>
 <header>
-    <h1>U.S. Weather Tracker</h1>
+    <h1>Weather Tracker</h1>
     <hr>
 </header>
 <main>
@@ -23,7 +23,7 @@
         </div>
     </div>
     <div id="city-container">
-        <div id="instructions">Enter U.S. city</div>
+        <div id="instructions">Enter city name</div>
         <input type="text" id="city-input">
         <div hidden id="validation">Invalid city name</div>
     </div>
